@@ -1,0 +1,107 @@
+cidade: "Bauru-SP"
+
+fonte_ibge:
+  mortalidade_infantil_2023: "8,3 óbitos por mil nascidos vivos"
+  internacoes_diarreia_2024: "33,2 internações por 100 mil habitantes"
+  estabelecimentos_sus_2009: 62
+
+ist_hiv_sifilis_prefeitura:
+  periodo_avaliado: "2012–2019 e 2019 detalhado"
+  aids_total_1980_2019: 3047
+  aids_detalhe_sexo:
+    masculino: "69,4%"
+    feminino: "30,5%"
+    menores_5_anos: "1,8%"
+  hiv_aids_2019:
+    hiv_novos: 105
+    aids_novos: 19
+    hiv_aids_total: 124
+    obitos_hiv_aids: 3
+    menores_5_anos: 0
+  hepatites_2019:
+    hepatite_b: 1
+    hepatite_c: 10
+  sifilis_2019:
+    sifilis_adquirida: 394
+    sifilis_gestante: 120
+    sifilis_congenita: 78
+  acumulado_2012_2019:
+    sifilis_adquirida: 2783
+    sifilis_congenita: 712
+
+comentario_geral: >
+  Bauru-SP apresenta um perfil epidemiológico caracterizado por alta circulação de dengue
+  durante períodos chuvosos, prevalência de hipertensão e diabetes ao longo do ano, e um fluxo
+  intenso de Pronto Atendimento marcado por quadros respiratórios e virais. Virose, gripe,
+  resfriado e síndrome viral aguda são extremamente frequentes, causando febre baixa, mal-estar,
+  dores no corpo, diarreia leve, cefaleia e sintomas respiratórios superiores, muitas vezes
+  confundidos com dengue ou COVID-19 em períodos de maior incidência.
+
+  Também são comuns queixas inespecíficas como dor de garganta, tosse, congestão nasal, e quadros
+  músculo-esqueléticos como lombalgia. A maioria desses casos evolui de forma benigna e
+  autolimitada, mas é fundamental reconhecer sinais de alarme como dor abdominal intensa,
+  vômitos persistentes, prostração, sangramentos, dificuldade respiratória ou sinais de desidratação.
+
+  Ao mesmo tempo, o município possui relevância crescente de ISTs, especialmente HIV, sífilis
+  adquirida e sífilis congênita, assim como casos de hepatites virais. Doenças respiratórias mais
+  graves (como pneumonia, asma exacerbada e DPOC), além de condições crônicas como hipertensão e
+  diabetes, também compõem grande parte da demanda assistencial.
+
+  Este conjunto de informações serve como base contextual e educacional para melhorar a triagem
+  clínica simulada no HealthMind. Não deve ser utilizado como substituto de investigação clínica
+  real ou dados oficiais de vigilância epidemiológica.
+
+sazonalidade:
+  - periodo: "Outubro a Março"
+    observacao: "Maior incidência de dengue e arboviroses."
+  - periodo: "Meses secos (maio a agosto)"
+    observacao: "Aumento de infecções respiratórias e crises de asma/DPOC."
+
+condicoes_prevalentes:
+  cronicas:
+    - Hipertensão arterial sistêmica
+    - Diabetes mellitus tipo 2
+    - Doenças cardiovasculares crônicas
+    - Obesidade
+  agudas_frequentes:
+    - Virose / síndrome viral aguda
+    - Influenza e gripe sazonal
+    - Resfriado comum
+    - Faringite viral
+    - Infecções respiratórias agudas
+    - Lombalgia e dores musculoesqueléticas
+    - Gastroenterites leves
+  infecciosas_relevantes:
+    - Dengue
+    - COVID-19 (casos esporádicos)
+    - Sífilis adquirida
+    - Sífilis congênita
+    - HIV/AIDS
+    - Hepatites virais
+
+doencas_comuns_pa:
+  - nome: "Gripe (Influenza)"
+    sintomas: "Febre, dor de garganta, tosse, calafrios, dores musculares, coriza."
+    observacao: "Muito comum no outono/inverno."
+  - nome: "Virose / Síndrome Viral Aguda"
+    sintomas: "Febre baixa, mal-estar, diarreia, dor abdominal, cefaleia, mialgia."
+    observacao: "Um dos motivos mais frequentes de atendimento no PA."
+  - nome: "Infecções Respiratórias Agudas"
+    sintomas: "Tosse, febre, congestão nasal, dor de garganta."
+    observacao: "Às vezes confundidas com gripe ou COVID."
+  - nome: "Dengue"
+    sintomas: "Febre alta, dor retro-orbitária, manchas, náuseas, mialgia intensa."
+    observacao: "Muito prevalente em surtos. Atentar aos sinais de alarme."
+  - nome: "COVID-19"
+    sintomas: "Febre, tosse, perda de olfato, fadiga."
+    observacao: "Persistente de forma esporádica."
+  - nome: "Asma e DPOC"
+    sintomas: "Chiado, dispneia, tosse."
+    observacao: "Crises aumentam em períodos secos."
+  - nome: "Lombalgia"
+    sintomas: "Dor lombar, rigidez."
+    observacao: "Muito comum na população geral."
+
+observacao_uso: >
+  As informações acima têm finalidade exclusivamente educacional e visam contextualizar a análise
+  de casos clínicos simulados no HealthMind. Não devem ser utilizadas como orientação médica real.
